@@ -1,0 +1,715 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.header_menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+.header_menu a{
+	text-decoration: none;
+	color:black;
+	cursor: pointer;
+  }
+  
+.header_menu_item{
+  margin: 20px;
+}
+.header_menu_item_left{
+	margin: 20px 10% 20px 20px;
+}
+
+.Page1_text{
+	position: relative;
+	display: flex;
+	margin-top: 120px;
+	font-size: 48px;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Paragraph_page1{
+	text-align: center;
+}
+.div_buttons{
+	display: flex;
+	width: 30%;
+	justify-content: center;
+}
+.Button_Page1_high{
+	margin: 20px;
+	border-radius: 20px;
+	border: 1px solid black;
+	background-color: white;
+	flex: 1;
+	max-width: 150px;
+	height: 80px;
+
+}
+
+.Button_Page1_high:hover{
+	cursor: pointer;
+	background-color: rgb(180,10, 10);
+}
+.body_page1{
+	background: linear-gradient(to right, #751c69, #3767b4);
+}
+
+.ImageStadium img{
+	max-width: 70%; /* Resize the image to fit its container width */
+	height: auto; /* Maintain the aspect ratio */
+	display: block; /* Remove extra space below the image */
+	margin: 0 auto; /* Center the image horizontally */
+}
+
+.section_2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+.section_2_Header_div{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.section_2_Header{
+	font-size: 48px;
+	margin: 30px;
+}
+.section_2_text{
+	font-size: 24px;
+}
+
+.sec{
+	display: flex;
+	margin-top: 25px;
+}
+
+.section_2_ball{
+	display: flex;
+	flex-direction: column;
+	margin: 40px 0px 0px 20px;
+	
+}
+.section_2_ball > p {
+	margin-bottom: 20px; 
+}
+
+.section_2_ball > ul li {
+	margin-bottom: 15px; 
+}
+
+.section_2_ball_text_1{
+	color:red;
+	font-size: 18px;
+}
+
+.section_2_ball_text_2{
+	font-weight: bold;
+	font-size: 32px;
+}
+
+
+.section_2_ball_text_3{
+	font-size: 24px;
+}
+.section_2_ball_text_4{
+	font-size: 18px;
+}
+
+.section_2_ball_text_4::before{
+	content: "✔";
+	margin-right: 10px;
+	color: green;
+}
+
+.section_2_ball_img{
+	margin-left: 40px;
+	margin-right: 20px;
+
+}
+
+.section_2_ball_img img{
+	width: 100%;
+	
+}
+
+.Reviews{
+	background-color: rgb(33,33,33);
+	color: white;
+
+}
+
+.Reviews_header{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.Reviews_header_text_1{
+	font-size: 40px;
+	margin-top: 30px;
+}
+
+.Reviews_header_text_2{
+	font-size: 22px;
+	margin-top: 20px;
+}
+
+.Review{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.Review_item{
+	width: 500px;
+	background-color: rgb(63, 63, 63);
+	margin: 20px;
+	border-radius: 50px;
+	min-height: 200px;
+}
+.Review_text{
+	position: relative;
+	top: 15px;
+	left: 10%;
+	font-size: 20px;
+}
+
+.Review_author{
+	position: relative;
+	top: 100px;
+	font-size: 20px;
+	left: 10%
+}
+
+.Footer_Page1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.Body_Footer_Page1{
+	background-color: white;
+
+
+}
+
+.LEFT_TEXT, .MIDDLE_TEXT{
+	margin: 15px 25% 5px 15px;
+
+}
+
+.Left_text_header{
+	font-size: 28px;
+	color: orangered;
+}
+
+.Left_text_main{
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.Middle_item_1{
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+.Middle_item_header{
+	font-weight: bold;
+	font-size: 28px;
+}
+.Middle_item{
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.Middle_item_1, .Middle_item:hover{
+	cursor:pointer;
+}
+
+.Right_Item{
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+.Right_Item_main{
+	font-weight: bold;
+	margin-top: 30px;
+	font-size: 28px;
+}
+
+.Line{
+	width: 1500px;
+	margin: auto;
+}
+.Copyright{
+	display: flex;
+	justify-content: space-between;
+	width: 1500px;
+	margin: auto;
+}
+
+
+/*GroupPage GroupPage  GroupPage GroupPage GroupPage GroupPage
+GroupPage GroupPage  GroupPage GroupPage GroupPage GroupPage
+GroupPage GroupPage  GroupPage GroupPage GroupPage GroupPage
+GroupPage GroupPage  GroupPage GroupPage GroupPage GroupPage
+GroupPage GroupPage  GroupPage GroupPage GroupPage GroupPage
+GroupPage GroupPage  GroupPage GroupPage GroupPage GroupPage
+GroupPage GroupPage  GroupPage GroupPage GroupPage GroupPage
+*/
+.Group_main{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.Group_stage {
+	flex-basis: calc(50% - 20px); /* 50% ширина з урахуванням відступів 20px */
+	margin: 20px auto;
+	max-width: 600px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table_row_Group th, .table_row_Group td {
+	padding: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+.table_row_Group th {
+	background-color: #3498db;
+	color: #fff;
+}
+
+tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+tr:hover{
+	background-color: #f1f1f1;
+}
+
+.Group_stage + .Group_stage {
+	margin-top: 20px; /* Add margin to separate the tables */
+}
+
+
+/*playyofs playyofs playyofs  playyofs playyofs playyofs
+playyofs playyofs playyofs playyofs playyofs playyofs
+playyofs playyofs playyofs playyofs playyofs playyofs
+playyofs playyofs playyofs playyofs playyofs playyofs
+playyofs playyofs playyofs playyofs playyofs playyofs
+playyofs playyofs playyofs*/
+.Image_playoff{
+	width: 80px;
+}
+
+.Div_playoff{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+.quater_final {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  }
+.semi_final_right{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.semi_final{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.quater_final li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 30px;
+  }
+  
+  
+.play li img, .quater_final li img {
+	margin: 15px 5px 15px; 
+  }
+
+.play li, .semi_final li, .Finall li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.Finall{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+.final, .third_place{
+	justify-content: center;
+}
+
+.stage_playoffs{
+	display: flex;
+	justify-content: center;
+	padding-left: 50px;
+}
+.main_div_playoff{
+	height: 93vh;
+}
+
+
+
+/*login login login login login login*/
+/*login login login login login login*/
+/*login login login login login login*/
+/*login login login login login login*/
+/*login login login login login login*/
+
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #751c69, #3767b4);
+    color: #fff;
+}
+
+.login-container {
+    border-radius: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #1d1c1c;
+    position: relative;
+}
+
+.login-container h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.form-input-password input,
+.form-input-email input{
+    width: calc(100% - 20px);
+    height: 20px; 
+    padding: 5px;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.form-input-date input{
+    width: calc(100% - 20px);
+    height: 20px; 
+    padding: 5px;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    color: #6d6565;
+}
+
+.form-input-password,
+.form-input-email, 
+.form-input-date{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.form-input-password img {
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.form-input-password input:focus,
+.form-input-email input:focus,
+.form-input-last-name:focus,
+.form-input-first-name:focus,
+.form-input-date input:focus{
+    outline: none;
+}
+
+.login-btn, .register-btn {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-btn:hover ,.register-btn:hover{
+    background-color: #fff;
+    color: #373b44;
+}
+
+.signup-link {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.form-input-first-name{
+    width: calc(100% - 20px);
+    height: 20px; 
+    padding: 5px;
+    margin: 20px 20px 20px 0px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.form-input-last-name{
+    width: calc(100% - 20px);
+    height: 20px; 
+    padding: 5px;
+    margin: 20px 0px 20px 20px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.form-div-first-last-name{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+/*schedule schedule schedule schedule schedule
+schedule schedule schedule schedule schedule
+schedule schedule schedule schedule schedule
+schedule schedule schedule schedule schedule
+schedule schedule schedule schedule schedule
+schedule schedule schedule schedule schedule*/
+
+.schedule {
+	font-family: 'Roboto', sans-serif;
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #f4f4f4;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .match {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	overflow: hidden;
+  }
+  
+  .match-time {
+	background-color: #4285f4;
+	color: #fff;
+	padding: 8px;
+	font-weight: bold;
+	border-radius: 4px 0 0 4px;
+  }
+  
+  .match-teams {
+	padding: 8px;
+  }
+  
+/*teamStats teamStats teamStats teamStats teamStats
+teamStats teamStats teamStats teamStats teamStats
+teamStats teamStats teamStats teamStats teamStats
+teamStats teamStats teamStats teamStats teamStats
+teamStats teamStats teamStats teamStats teamStats*/
+  
+  
+.teamStats{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.table_header_Group{
+text-align: center;
+	
+}
+
+.teamStats_stage{
+	flex-basis: calc(50% - 20px); /* 50% ширина з урахуванням відступів 20px */
+	margin: 20px auto;
+	max-width: 600px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table_row_Group th, .table_row_Group td {
+	padding: 12px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+.table_row_Group th {
+	background-color: #3498db;
+	color: #fff;
+}
+
+tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+.Sorted{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*Schedule Schedule Schedule Schedule*/
+/*Schedule Schedule Schedule Schedule*/
+/*Schedule Schedule Schedule Schedule*/
+/*Schedule Schedule Schedule Schedule*/
+/*Schedule Schedule Schedule Schedule*/
+/*Schedule Schedule Schedule Schedule*/
+
+ .Goals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.TimeDate{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.team-stat-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.team-stat-container {
+    padding: 20px;
+}
+
+.scheduleStats {
+    font-family: 'Roboto', sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f4f4f4;
+    padding: 0px 20px 20px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Goals_Item_name{
+	width: 100px;
+}
+
+.TimeDate_Item {
+    margin: 10px;
+	font-weight: Bold;
+}
+
+.div_goals {
+    display: flex;
+    flex-direction: row;
+	align-items: center;
+}
+
